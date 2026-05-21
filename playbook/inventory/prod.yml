@@ -2,4 +2,12 @@
 clickhouse:
   hosts:
     clickhouse-01:
-      ansible_host: <IP_here>
+      ansible_host: 93.77.183.158
+      ansible_user: alex
+      ansible_ssh_private_key_file: ~/.ssh/id_ed25519
+vector:
+  hosts:
+    vector-01:
+      ansible_host: 89.169.132.249
+      ansible_user: alex
+      ansible_ssh_private_key_file: ~/.ssh/id_ed25519
